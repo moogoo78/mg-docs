@@ -69,6 +69,13 @@ select extract(hour from created), count(*) from mytable group by 1;
 select extract(dow from created), count(*) from mytable group by 1
 ```
 
+Query date and time
+```sql
+SELECT * FROM my_table WHERE datetime::date >= '2022-12-31' AND datetime::time >= '16:01'
+```
+
+#### split part
+
 ```sql title="split string to array and extract"
 -- memo: APP-v0.1.2/foo/20230101
 select
