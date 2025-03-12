@@ -74,7 +74,7 @@ Windows的Notepad++轉換編碼後輸出，用hexdump看內容結果。
 
 ### 其他:
 
-用LibreOffice，匯出的預設欄位沒有雙引號，也沒加BOM header
+- 用LibreOffice、Google Spreadsheet匯出的預設欄位沒有雙引號，也沒加BOM header
 
-(有空再來補各種版本Excel、Google Spreadsheet的匯出)
+(有空再來補各種版本Excel的匯出)
 
