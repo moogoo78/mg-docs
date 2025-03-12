@@ -7,10 +7,10 @@ tags:
   - csv
 ---
 
-# CSV, BOM
+# 關於CSV的各種編碼，還有BOM的雜記
 
-
-關於csv的各種編碼，還有[端序記號 (byte-order mark，BOM)](https://zh.wikipedia.org/zh-tw/端序記號)的雜記。
+- [逗號分隔值 - 维基百科，自由的百科全书](https://zh.wikipedia.org/zh-tw/逗号分隔值)
+- [端序記號 - 维基百科，自由的百科全书](https://zh.wikipedia.org/zh-tw/端序記號)
 
 ## 各種CSV格式
 
