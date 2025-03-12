@@ -103,6 +103,9 @@ for f in *.JPG; do mv "$f" “${f%.JPG}.jpg”; done
 - o, --only-matching: 只印出找到的字串，不會印整行(這個在minified檔案裡很煩)
 - P, --perl-regexp: 可以用regex
 - l, 只有引檔名
+- A 3, 後3行
+- B 3, 前3行
+- C 3, 前後3行
 
 #### count, sum
 
@@ -217,6 +220,16 @@ sed 's/$/,/' input_file > output_file
 split big file to chunk (1000 line per file), prefix will gose to prefixaa, prefixab, prefixac...
 ```bash title="split"
 split -l 1000 file-to-be-split prefix.
+```
+
+### Process modern data (jq for JSON)
+
+`jq` extract json string data, ex:
+
+
+```bash
+cat foo.json | jq '.s["894"]' # get {"s": {"894": "200"}}
+200
 ```
 
 ### File Coding
