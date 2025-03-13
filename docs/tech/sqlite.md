@@ -61,6 +61,8 @@ sqlite> .dump table_name
 
 ### import
 
+Import from csv
+
 ```text title="import from csv"
 
  sqlite> .headers on
@@ -78,6 +80,7 @@ sqlite> .dump table_name
  sqlite> .mode ascii # tab 或column都沒用
  sqlite> .separator "\t"
  sqlite> .import {FILE} {TABLE_NAME}
+
 ```
 如果資料裡有 `|` (vertical bar)，SQLite import也會造成欄位判斷錯誤，如: `expected 1 columns but found 2 - extras ignored`，用以上方法也可以成功匯入。
 
@@ -90,6 +93,18 @@ sqlite> .import --csv foo.csv footable
 ```bash title="export/import csv by command"
 $ sqlite3 -header -csv c:/sqlite/chinook.db "select * from tracks;" > tracks.csv
 $ sqlite3 -header -csv c:/sqlite/chinook.db < query.sql > data.csv
+```
+
+Import from SQL file
+
+```bash
+sqlite> .read db.sql
+```
+
+or
+
+```bash
+cat db.sql | sqlite3 database.db
 ```
 
 ### mode
