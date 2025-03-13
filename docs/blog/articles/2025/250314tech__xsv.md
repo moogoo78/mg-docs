@@ -1,5 +1,5 @@
 ---
-date: 2025-01-15
+date: 2025-03-14
 categories:
   - Tech
 tags:
@@ -9,6 +9,7 @@ tags:
 
 # 處理CSV的命令列利器: XSV
 
+在Global Names的Tutorial: [Parse names into a CSV file](https://globalnames.org/docs/tut-xsv-gnparser/)看到一個處理CSV超有效率的工具。
 
 ## 安裝
 
