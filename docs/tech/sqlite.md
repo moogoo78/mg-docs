@@ -206,3 +206,41 @@ WHERE titles_fts MATCH '{primary_title original_title}: star wars'
 LIMIT 10;
 ```
 rank seems not work...
+
+### spellfix1 (search for close matches)
+
+[The Spellfix1 Virtual Table](https://www.sqlite.org/spellfix1.html)
+
+In debian, need build spellfix1.so
+
+```bash
+apt install libsqlite3-dev
+```
+download [SQLite: spellfix.c at trunk](https://www.sqlite.org/src/file?name=ext/misc/spellfix.c&ci=trunk)
+
+```bash
+gcc -shared -fPIC -o spellfix1.so spellfix.c -lsqlite3
+```
+
+generate `spellfix1.so`
+
+```text
+sqlite> .load ./spellfix1.so
+```
+
+(每次開啟都要load)
+
+```sql
+CREATE VIRTUAL TABLE demo USING spellfix1;
+INSERT INTO demo(word) SELECT foo FROM some_table;
+SELECT word FROM demo WHERE word MATCH 'kennes*' AND top=5;
+```
+
+#### soundslike
+
+查salm或chay時，psalm或Tchai...都會出現
+
+```sql
+INSERT INTO demo(word,soundslike) VALUES('psalm','salm');
+INSERT INTO demo(word,soundslike) VALUES('Tchaikovsky','Chaykovsky');
+```
