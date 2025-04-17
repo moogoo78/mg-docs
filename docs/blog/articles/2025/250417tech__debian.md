@@ -43,20 +43,20 @@ logout/login 後才有作用
 Update packages
 
 ```bash
-$ sudo apt update
-$ sudo apt upgrade
+sudo apt update
+sudo apt upgrade
 ```
 
 Install tools
 
 ```bash
-$ sudo apt install vim emacs git zsh tmux curl
+sudo apt install vim emacs git zsh tmux curl
 ```
 
 Set default SHELL to zsh
 
 ```bash
-$ chsh -s /bin/zsh
+chsh -s /bin/zsh
 ```
 logout/login 後才有作用
 
@@ -69,6 +69,13 @@ logout/login 後才有作用
 **Floorp**
 
 到 https://ppa.floorp.app/ 按步驟安裝
+
+
+**Chromium**
+
+```bash
+apt get install chrome
+```
 
 **Zotero**
 
