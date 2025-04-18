@@ -38,8 +38,6 @@ logout/login 後才有作用
 ## 開發環境
 
 
-
-
 Update packages
 
 ```bash
@@ -82,3 +80,7 @@ apt get install chrome
 [Installation Instructions](https://www.zotero.org/support/installation)
 
 Debian 12會報錯，要 install `libdbus-glib-1-2`
+
+## 系統管理
+
+- bmon: command-line 看網路狀況 
