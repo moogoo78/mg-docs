@@ -35,8 +35,7 @@ logout/login 後才有作用
 > XKBOPTIONS="ctrl:nocaps"
 
 
-## 開發環境
-
+## Install Packages/Tools
 
 Update packages
 
@@ -45,10 +44,10 @@ sudo apt update
 sudo apt upgrade
 ```
 
-Install tools
+## Development
 
 ```bash
-sudo apt install vim emacs git zsh tmux curl
+sudo apt install vim emacs git zsh tmux curl sqlite3
 ```
 
 Set default SHELL to zsh
