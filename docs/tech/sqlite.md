@@ -87,7 +87,8 @@ Import from csv
 [Command Line Shell For SQLite](https://www.sqlite.org/cli.html)
 
 ```
-sqlite> .import --csv foo.csv footable
+sqlite> .import --csv foo.csv my_table
+sqlite> .import --skip 1 foo.csv my_table (skip header)
 ```
 
 ```bash title="export/import csv by command"
@@ -105,6 +106,7 @@ or
 
 ```bash
 cat db.sql | sqlite3 database.db
+sqlite3 < db.sql
 ```
 
 ### mode
