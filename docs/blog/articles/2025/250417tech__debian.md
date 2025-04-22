@@ -47,7 +47,7 @@ sudo apt upgrade
 ## Development
 
 ```bash
-sudo apt install vim emacs git zsh tmux curl sqlite3
+sudo apt install vim emacs git zsh tmux curl sqlite3 tig
 ```
 
 Set default SHELL to zsh
