@@ -12,12 +12,43 @@ mysql> show tables;
 mysql> show status;
 ```
 
-mysqldump
+### Export
 
+mysqldump
 
 ```bash title="import sql"
 mysql -f -u username -p database_name < file.sql # -f 跳過錯誤繼續匯入 (重複 create table)
 ```
+
+export to csv file
+```bash
+mysql -u root -pexample mydatabase -e "SELECT * FROM my_table INTO OUTFILE '/var/lib/mysql/my_table.csv' FIELDS TERMINATED BY ',' ENCLOSED BY '\"' LINES TERMINATED BY '\n';"
+```
+docker裡會遇到
+
+> ERROR 1290 (HY000): The MySQL server is running with the --secure-file-priv option so it cannot execute this statement
+
+在MySQL client裡確認
+
+```sql
+SHOW VARIABLES LIKE "secure_file_priv";
+```
+
+出現Value是NULL，用docker compose設定
+
+```
+    volumes:
+      - ../taicol-volumes/mysql-data:/var/lib/mysql
+    command:
+      --secure-file-priv=/var/lib/mysql
+```
+
+如果設定成其他目錄會另外遇到權限問題
+
+ > Permission denied (OS errno 13)
+
+另外要改docker裡的權限
+
 
 ### User權限
 主要是在名為mysql的資料庫裡的user (table)
