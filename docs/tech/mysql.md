@@ -14,13 +14,14 @@ mysql> show status;
 
 ### Export
 
-mysqldump
+#### mysqldump
 
 ```bash title="import sql"
 mysql -f -u username -p database_name < file.sql # -f 跳過錯誤繼續匯入 (重複 create table)
 ```
 
-export to csv file
+#### export to csv file
+
 ```bash
 mysql -u root -pexample mydatabase -e "SELECT * FROM my_table INTO OUTFILE '/var/lib/mysql/my_table.csv' FIELDS TERMINATED BY ',' ENCLOSED BY '\"' LINES TERMINATED BY '\n';"
 ```
@@ -49,6 +50,7 @@ SHOW VARIABLES LIKE "secure_file_priv";
 
 另外要改docker裡的權限
 
+不過這個csv沒有header，如果要的話要hard-code select xx1, xx2 union select ...
 
 ### User權限
 主要是在名為mysql的資料庫裡的user (table)

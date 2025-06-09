@@ -98,6 +98,12 @@ find [path] -type f | wc -l
 for f in *.JPG; do mv "$f" “${f%.JPG}.jpg”; done
 ```
 
+找出一年前的檔案，並計算出大小
+
+```
+find . -type f -mtime +365 -print0 | du --files0-from=- -ch | grep total
+```
+
 #### grep
 
 - o, --only-matching: 只印出找到的字串，不會印整行(這個在minified檔案裡很煩)
