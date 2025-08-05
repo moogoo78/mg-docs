@@ -76,6 +76,18 @@ RUN echo ${POSTGRES_VERSION}
 
 ## Useful commands
 
+Build image by Dockerfile
+
+```bash
+docker build -t my-image-name .
+```
+
+Run image
+
+```bash
+docker run -p 8080:80 my-image-name
+```
+
 ```bash title="remove all images"
 docker rmi $(docker images -a -q)
 ```

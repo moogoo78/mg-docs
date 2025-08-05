@@ -183,6 +183,11 @@ WHERE EXISTS (
 );
 ```
 
+Update JSONB data
+
+```sql
+UPDATE record SET source_data = jsonb_set(source_data, '{class_name}', '"Actinopterygii"') WHERE source_data ->>'class_name' = 'Actinopteri';
+```
 ## PostGIS
 
 enable postgis extension:
