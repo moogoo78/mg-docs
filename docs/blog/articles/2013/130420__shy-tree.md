@@ -1,5 +1,5 @@
 ---
-:date: 2013-04-20 04:37
+:date: 2013-04-20
 categories:
  - Journal
 tag:
