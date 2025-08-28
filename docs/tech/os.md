@@ -60,8 +60,17 @@ reference:
 - [Fcitx - 維基百科，自由的百科全書](https://zh.wikipedia.org/zh-tw/Fcitx)
 - [小麥注音輸入法 on X: "我們更新了首頁 (https://t.co/7hY7IzhQJi)，修改了我們使用的社群網路平台，未來版本資訊也會從該處發布。歡迎舊雨新知前往，繼續給予指教！" / X](https://twitter.com/McBopomofo/status/1714799933969023391)
 
+### packages
 
-##### Development Environment
+hwinfo
+
+ex:
+
+```bash
+hwinfo --monitor
+```
+
+#### Development Environment
 
 Install Python using Pyenv:
 
