@@ -48,6 +48,9 @@ tags:
 
 ![](../../assets/blog/2025/geopick-location-dwc.jpg)
 
+至於這些詳細欄位內容的定義與使用就請移駕[Darwin Core Quick Reference Guide - Darwin Core](https://dwc.tdwg.org/terms/#location) (Location Class)。
+
+---
 
 原始碼: [rtdeb/GeoPick: Simple uncertainty radius calc for lines and polygons](https://github.com/rtdeb/GeoPick)
 
