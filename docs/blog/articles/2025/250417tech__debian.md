@@ -64,6 +64,14 @@ logout/login 後才有作用
 
 ## 好用軟體
 
+### Command line
+
+- lazydocker, lazygit
+- fastfetch (好用好看的system info)
+- Alacritty (好用的 Terminal Emulator，標榜OpenGL、速度快)
+
+### Desktop
+
 **Floorp**
 
 到 https://ppa.floorp.app/ 按步驟安裝

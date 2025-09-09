@@ -301,6 +301,10 @@ dd if=/dev/zero of=/tmp/test1.img bs=1G count=1 oflag=dsync
 
 [htop explained | peteris.rocks](https://peteris.rocks/blog/htop/)
 
+make bootable linux distro
+```bash
+dd if=/dev/sdb of=./some-linux-distro-version.iso bs=1M
+```
 ### Device
 
 check usb device
