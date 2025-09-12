@@ -44,6 +44,65 @@ with open('eggs.csv', 'w', newline='') as csvfile:
     })
 ```
 
+Python app with csv in/out file
+
+```python
+import csv
+import argparse
+import sys
+
+def main(args):
+    print("--- Script starting ---")
+    data = {}
+    fieldnames = [args.field]
+    reader = csv.DictReader(args.infile)
+    stats = {
+        'empty': 0,
+        'ignore': 0,
+        'total': 0,
+    }
+
+    if args.verbose:
+        print(f'stats: {stats}')
+
+    print("--- Script finished ---")
+    return 0
+
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description='raw parser')
+    parser.add_argument(
+        'infile',
+        type=argparse.FileType('r'),
+        default=sys.stdin)
+
+    parser.add_argument(
+        'field',
+        type=str,
+        help='field name'
+    )
+    parser.add_argument(
+        '--relate',
+        nargs='?',
+        type=str,
+        help='related field name'
+    )
+    parser.add_argument(
+        '--out',
+        nargs='?',
+        type=argparse.FileType('w')
+    )
+
+    parser.add_argument(
+        "-v", "--verbose",
+        action="store_true",  # This makes it a flag
+        help="Enable verbose output."
+    )
+
+    parsed_args = parser.parse_args()
+
+    sys.exit(main(parsed_args))
+```
 ## JavaScript
 
 ```javascript title="IIFE (Immediately Invoked Function Expression)"
