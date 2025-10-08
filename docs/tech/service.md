@@ -2,7 +2,8 @@
 
 ## Networks
 
-[CDN Finder - CDN Planet](https://www.cdnplanet.com/tools/cdnfinder/)
+- [CDN Finder - CDN Planet](https://www.cdnplanet.com/tools/cdnfinder/)
+- [Hosting Checker - Find out who is hosting any website](https://hostingchecker.com/)
 
 
 ## Google Trends
