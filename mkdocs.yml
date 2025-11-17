@@ -5,7 +5,8 @@ nav:
     - index: index.md
     - Tags: tags.md
   - Tech:
-    - snippets: tech/snippets.md
+    - snippets: tech/index.md
+    - Scripts: tech/scripts.md
     - Security: tech/security.md
     - Persistant Identifier: tech/pid.md
     - GIS: tech/gis.md

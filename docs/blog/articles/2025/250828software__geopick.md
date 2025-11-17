@@ -27,7 +27,7 @@ tags:
 
 這邊用「天母」這個含糊的地名來當例子，天母這個地名非正式行政區的名字，不同時期、不同背景，會有不同的範圍，導致有所謂的真正的天母、老天母、天母邊緣、不是天母(北投)，甚至有人開玩笑建商也有一個最廣的範圍定義...
 
-![](../../assets/blog/2025/geopick-location-name.jpg)
+![](../../../assets/blog/2025/geopick-location-name.png)
 
 先不管確切範圍，在界面上方的搜尋欄輸入: "天母"，就有下拉選單的資料，地名資料來自於OpenStreetMap的[Nominatim](https://nominatim.org/)，然後就有一個被標注在天母圓環的點位了 (這邊也不討論「真」天母圓環是那一個，那又是另一個故事了，這邊指的是天母東/西路跟中山北路，假日有市集的那個圓環)，然後填上`georeferencedBy` (誰填的) 這個欄位就自動產生 `locality` 地名欄位的資訊:
 
@@ -40,13 +40,13 @@ tags:
 
 第二種，就是要自行命名一個我自己認定的範圍，也想給一個名稱，直接用地圖上的劃線工具把我要的區域框出來，然猴給`locality`(地點名稱)、`georeferencedBy` (誰填的) 跟`georeferenceRemarks`(說明備註)，就這樣。
 
-![](../../assets/blog/2025/geopick-pure-tianmu.jpg)
+![](../../../assets/blog/2025/geopick-pure-tianmu.jpg)
 
 然後他就自動產生可以盡可能詳細的放入DarwinCore欄位的資料，直接複製打包帶走，很方便。
 
 示範內容如下圖:
 
-![](../../assets/blog/2025/geopick-location-dwc.jpg)
+![](../../../assets/blog/2025/geopick-location-dwc.jpg)
 
 至於這些詳細欄位內容的定義與使用就請移駕[Darwin Core Quick Reference Guide - Darwin Core](https://dwc.tdwg.org/terms/#location) (Location Class)。
 

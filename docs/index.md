@@ -2,7 +2,7 @@
 
 🧭 Navigation
 
-[Tech](./tech/snippets.md) | [Music](./music/songs.md) | [Nature](./nature/field-guide.md) | [Life](./life/housing.md) | [Web](./web/index.md) | [Blog](./blog/index.md)
+[Tech](./tech/index.md) | [Music](./music/songs.md) | [Nature](./nature/field-guide.md) | [Life](./life/housing.md) | [Web](./web/index.md) | [Blog](./blog/index.md)
 
 :see_no_evil: other blogs
 
