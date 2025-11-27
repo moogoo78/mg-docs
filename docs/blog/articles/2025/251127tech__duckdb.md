@@ -32,3 +32,5 @@ duckdb -c "SELECT recordedBy, datasetName, count(*) FROM 'tbia_6927dd263f39e705b
 ![duckdb-recordedBy-count](../../../assets/blog/2025/duckdb-2.png)
 
 好直覺、好快 ~~
+
+[DuckDB – An in-process SQL OLAP database management system](https://duckdb.org/)
