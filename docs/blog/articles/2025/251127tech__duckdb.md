@@ -8,6 +8,8 @@ tags:
   - csv
 ---
 
+- 2025-12-02 補充
+
 # DuckDB - 直接用SQL語法篩選資料，免匯入
 
 想收集[TBIA](https://tbiadata.tw/)所有「紀錄者/採集者」 (`recordedBy`)的名字，先想到用之前有使用過的[XSV](./250314tech__xsv.md)，但要安裝時發現已經沒有在維護了，XSV的介紹叫大家改用[qsv](https://github.com/dathere/qsv)，跟XSV一樣參數簡單、速度超快。TBIA下載所有的資料，解壓縮完有27.9GB (29,536,885筆資料)，用qsv讀取recordedBy跟拿掉重複輸出，大概幾十秒就做完了。
@@ -34,3 +36,15 @@ duckdb -c "SELECT recordedBy, datasetName, count(*) FROM 'tbia_6927dd263f39e705b
 好直覺、好快 ~~
 
 [DuckDB – An in-process SQL OLAP database management system](https://duckdb.org/)
+
+
+補充應用:
+
+篩選出資料集名稱為: "科博典藏 (NMNS Collection)-真菌學門" 的分類資訊`。
+
+
+```bash
+duckdb -csv -c " select id, kingdom, kingdom_c, phylum, phylum_c, 'class', class_c, 'order', order_c, family, family_c, genus, genus_c, scientificName, common_name_c from 'tbia_6927dd263f39e705b9843d70.csv' where datasetName='科博典藏 (NMNS Collection)-真菌學門'" > nmns-fungi.csv
+```
+
+-csv 設定 `.mode csv`，不然的話預設會匯出duckbox (有框線)
