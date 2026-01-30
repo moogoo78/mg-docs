@@ -253,6 +253,11 @@ iconv -f cp950 -t UTF-8 {input-file} > {output-file}
 
 ### Networks
 
+find local IP
+```bash
+hostname -I
+```
+
 telnet & openssl:
 ```bash title="連線測試"
 telnet my-host.com 80
