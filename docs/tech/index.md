@@ -184,6 +184,8 @@ tags:
 
 ![foo](../../assets/blog/bar)
 
+<!-- more -->
+
 ```
 
 Make code block wrap

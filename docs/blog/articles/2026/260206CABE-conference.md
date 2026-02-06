@@ -23,7 +23,7 @@ pre code {
 
 [原始碼](https://github.com/moogoo78/CABE-2026) | [呈現頁面](https://moogoo78.github.io/CABE-2026/)
 
----
+<!-- more -->
 
 週六早上本來準備看Alex Honnold攀爬101的轉播，但因天候不佳延期，空出來的時間突然想看一下CABE 2026的議程，雖然官網的議程非常詳細清楚，Facebook也有提供Excel檔下載，但是用手機小畫面看還是覺的有點辛苦。看一下訂閱的Claude Code的token還有額度，就想叫他動起來做點事了。
 
