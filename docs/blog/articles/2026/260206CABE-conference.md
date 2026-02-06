@@ -6,7 +6,7 @@ tags:
   - AI
   - biodiversity
   - event
-slug: CABE-2026
+slug: CABE-2026-mobile-AI
 ---
 
 <style>
