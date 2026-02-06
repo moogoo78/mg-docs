@@ -220,3 +220,24 @@ move this button to last order and give it a unicode emoji
 ---
 
 忘了說，因為只是靜態網頁，做完後放到github pages就上線了。
+
+---
+
+那幾天的Google Anatytics流量
+
+<figure markdown="span">
+  ![Google Analytics流量](../../../assets/blog/2026/cabe-2026-ga-stats1.png){ width="760" }
+  <figcaption>報表</figcaption>
+</figure>
+
+<figure markdown="span">
+  ![Google Analytics流量](../../../assets/blog/2026/cabe-2026-ga-stats2.png){ width="640" }
+  <figcaption>活躍使用者</figcaption>
+</figure>
+
+<figure markdown="span">
+  ![Google Analytics流量](../../../assets/blog/2026/cabe-2026-ga-stats3.png){ width="640" }
+  <figcaption>新訪客與回訪者</figcaption>
+</figure>
+
+
