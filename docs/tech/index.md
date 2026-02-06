@@ -172,7 +172,7 @@ MkDocs Blog
 
 ```markdown
 ---
-date: 2025-01-15
+date: 2026-01-15
 categories:
   - Journal
 tags:
@@ -184,6 +184,17 @@ tags:
 
 ![foo](../../assets/blog/bar)
 
+```
+
+Make code block wrap
+
+```html
+<style>
+pre code {
+  white-space: pre-wrap !important;
+  word-wrap: break-word !important;
+}
+</style>
 ```
 
 reST (ReStructuredText)
