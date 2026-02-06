@@ -216,3 +216,7 @@ move this button to last order and give it a unicode emoji
 
 
 從頭到尾跟AI對話的時間可能大概不到2小時，花最多時間是寫這篇文章。
+
+---
+
+忘了說，因為只是靜態網頁，做完後放到github pages就上線了。
