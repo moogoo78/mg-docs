@@ -100,6 +100,8 @@ slug: visiting-beitou-incinerator
   <figcaption>垃圾要一直翻動，讓他稍微乾燥一點，比較好燒</figcaption>
 </figure>
 
+另一場的分享：[【垃圾去哪兒？北投焚化爐開箱實錄 🏭】](https://www.facebook.com/permalink.php?story_fbid=pfbid027C3MaUnMqJMhG8qHdX5B9UbrWRiPBdpckaq97idbVTgUg37N5a9wFGFCVv9FEBAkl&id=61578301250293)
+
 <figure markdown="span">
   ![北投焚化爐](../../../assets/blog/2026/260211-6.jpg)
   <figcaption>廢氣監控，講者說他沒有遇到超標過</figcaption>
