@@ -15,20 +15,24 @@ tags:
 - 油
 - 酸分解液 (動物毛髮或不要的部分)
 - 豆片?
+<!--
 - 純醸醬油，台灣使用的需求做不出那個量
 - 價格：醬油，比(一般)礦泉水貴的才是純醸
+-->
 
 ## 西螺醬油
 
 - 靠濁水溪的水源，產業：米、醬油、西瓜
 - 全盛時期登記有19間 (20年前)
 
+<!--
 ### 陳源和醬油廠
 
 - 明年(2027)就是140年了，現在第五代
 - 小工廠，扣掉家人 5人以下
 - 跟林奐慶(殻豆科圖鑑)買有機黑豆
 - 甕用的是水里燒窯，破一個少一個
+-->
 
 ## 醬油製作
 
@@ -57,12 +61,12 @@ tags:
 </figure>
 
 <figure markdown="span">
-  ![陳源和醬油廠](../../../assets/blog/2026/soy-souce-1.JPG)
+  ![陳源和醬油廠](../../../assets/blog/2026/soy-souce-2.JPG)
   <figcaption>1</figcaption>
 </figure>
 
 <figure markdown="span">
-  ![陳源和醬油廠](../../../assets/blog/2026/soy-souce-1.JPG)
+  ![陳源和醬油廠](../../../assets/blog/2026/soy-souce-3.JPG)
   <figcaption>發酵的豆子</figcaption>
 </figure>
 
