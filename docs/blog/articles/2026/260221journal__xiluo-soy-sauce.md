@@ -51,6 +51,22 @@ tags:
 - 現在食品法規，沒有5000萬沒辦法做，跟以前環境不一樣，很難創業
 - 生抽：中國、香港講的是「清醬油」，跟我們講的生抽不一樣 (比較鹹)
 
-<!--
-![foo](../../assets/blog/bar)
--->
+<figure markdown="span">
+  ![陳源和醬油廠](../../../assets/blog/2026/soy-souce-1.JPG)
+  <figcaption>1</figcaption>
+</figure>
+
+<figure markdown="span">
+  ![陳源和醬油廠](../../../assets/blog/2026/soy-souce-1.JPG)
+  <figcaption>1</figcaption>
+</figure>
+
+<figure markdown="span">
+  ![陳源和醬油廠](../../../assets/blog/2026/soy-souce-1.JPG)
+  <figcaption>發酵的豆子</figcaption>
+</figure>
+
+<figure markdown="span">
+  ![陳源和醬油廠](../../../assets/blog/2026/soy-souce-4.JPG)
+  <figcaption>很可愛的春聯</figcaption>
+</figure>
