@@ -57,12 +57,12 @@ tags:
 
 <figure markdown="span">
   ![陳源和醬油廠](../../../assets/blog/2026/soy-souce-1.JPG)
-  <figcaption>1</figcaption>
+  <figcaption>日曬</figcaption>
 </figure>
 
 <figure markdown="span">
   ![陳源和醬油廠](../../../assets/blog/2026/soy-souce-2.JPG)
-  <figcaption>1</figcaption>
+  <figcaption>好美的醬缸</figcaption>
 </figure>
 
 <figure markdown="span">
@@ -72,5 +72,5 @@ tags:
 
 <figure markdown="span">
   ![陳源和醬油廠](../../../assets/blog/2026/soy-souce-4.JPG)
-  <figcaption>很可愛的春聯</figcaption>
+  <figcaption>可愛的春聯</figcaption>
 </figure>
