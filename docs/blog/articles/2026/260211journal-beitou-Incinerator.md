@@ -11,6 +11,8 @@ slug: visiting-beitou-incinerator
 
 在臉書社填海社看到揪團看[焚化爐活動](https://www.facebook.com/share/p/1AdzTWL7GR/)，結果報名十分踴躍還分成2隊，我們是跟著RE-THINK團隊，大家果然都是對垃圾議題非常有興趣的，問題非常多，也都問的很深入。
 
+以下是當場聽到隨手抄的筆記整理，很有可能聽錯或記錯，請斟酌參考。
+
 ## 台北市的垃圾
 
 - 台北市目前每垃圾量為2200-2500公噸，包含事業廢棄物(不是藍袋子的家庭垃圾都算) => 1人每天垃圾量0.8-1公斤
@@ -66,7 +68,7 @@ slug: visiting-beitou-incinerator
 <!-- 講者一天最多開27張罰單，會放寬 -->
 - 台中醫療廢棄物1公斤，25-30元
 - 公告的回收物跟清潔隊的認定可能不同，例如：乾淨的保麗龍跟塑膠袋，怎樣算乾淨的
-- 理論上部會有味道，臭味都是垃圾中有餿水漏出來
+- 理論上不會有味道，臭味都是垃圾中有餿水漏出來
 - 金紙處理: 週六內湖專爐專燒，每年有淨爐儀式
 - Q: 垃圾會燒起來嗎 A: 每年夏天都會燒起來 (會請消防局來噴水)
 
@@ -102,3 +104,5 @@ slug: visiting-beitou-incinerator
   ![北投焚化爐](../../../assets/blog/2026/260211-6.jpg)
   <figcaption>廢氣監控，講者說他沒有遇到超標過</figcaption>
 </figure>
+
+另一場的分享：[【垃圾去哪兒？北投焚化爐開箱實錄 🏭】](https://www.facebook.com/permalink.php?story_fbid=pfbid027C3MaUnMqJMhG8qHdX5B9UbrWRiPBdpckaq97idbVTgUg37N5a9wFGFCVv9FEBAkl&id=61578301250293)
