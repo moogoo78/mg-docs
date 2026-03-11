@@ -109,3 +109,10 @@ Use Chrono only if you start adding columns like "Date Method," "Lab Number," or
 - [International Commission on Stratigraphy](https://stratigraphy.org/)
 - [年代地層學 - 維基百科，自由的百科全書](https://zh.wikipedia.org/zh-tw/年代地层学)
 - [地層學-古生物學入門（三）](https://vocus.cc/article/64e4e1d7fd8978000151fe67)
+
+### 地層名稱相關
+
+- [台灣的化石地層簡介](https://taiwanaster2003.pixnet.net/blog/posts/9267191909)
+- [地質雲加值應用平臺 - 首頁](https://www.geologycloud.tw/geohome) 有提供API，swagger文件
+- [二十五萬分之一臺灣區域地質圖數值檔-臺灣 ｜ 政府資料開放平臺](https://data.gov.tw/dataset/6695) 提供csv，但裡面是WMS的URL清單
+- [地質資料整合查詢](https://geomap.gsmma.gov.tw) 線上圖台做的不錯，但可能沒有下載資料的地方 (也許是我不會用)
