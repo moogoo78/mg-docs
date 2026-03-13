@@ -4,6 +4,14 @@
 
 ## tools
 
+### sqlite-utils
+
+Import csv to sqlite
+
+```sh
+sqlite-utils insert my-new-file.db database_name my-csv-file.csv --csv
+```
+
 ### GUI
 
 - GUI client: [GitHub - little-brother/sqlite-gui: Lightweight SQLite editor for Windows](https://github.com/little-brother/sqlite-gui?utm_source=hackernewsletter&utm_medium=email&utm_term=data)
