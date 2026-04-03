@@ -8,6 +8,10 @@ Open file manager of current path in command line
 xdg-open .
 ```
 
+Desktop 好用軟體
+
+- [Geeqie, lightweight image viewer](https://www.geeqie.org/) 簡單，可看Apple的HEIC格式
+
 ### Debian
 
 [如何知道目前Debian版本號碼](../blog/articles/2023/231214tech__how-to-check-debian-version.md)
