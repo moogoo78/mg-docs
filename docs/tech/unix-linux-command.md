@@ -63,6 +63,14 @@ cut -d, -f 1-3,6- < test.csv # A,B,C,F,G,H
 sed 's/$/,/' input_file > output_file
 ```
 
+**The "Deleted but Still Full" Problem**
+`rm` 刪除檔案，但是inode還是持續使用 => 用“清除的方式比較好” (without removing the file entry from the filesystem, keeps the file descriptor valid for the application.)
+
+```bash title="在docker external volumes狀態"
+cat /dev/null | sudo tee /path/to/logfile.log
+```
+用 `tee`，`sudo` 才可以作用到後續的檔案
+
 ### 找東西
 
 find in file (grep-like):
