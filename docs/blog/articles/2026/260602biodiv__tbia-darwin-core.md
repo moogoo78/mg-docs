@@ -13,9 +13,9 @@ tags:
 
 [臺灣生物多樣性資訊聯盟(Taiwan Biodiversity Information Alliance, TBIA)](https://tbiadata.tw/zh-hant/about#about)，推出了[TBIA 生物多樣性領域資料標準](https://docs.tbiadata.tw/biodiversity_data_standard/)，也上架到[資料標準列表 - 政府資料標準平臺 schema.gov.tw](https://schema.gov.tw/lists?ct=113,114,115,116,117)，我大概知道其中很多欄位定義是取用於[Darwin Core](https://dwc.tdwg.org/) (DwC, 目前全世界流通的生物多樣性資料標準)，但還是有少數不同的地方，很好奇的就請AI比較一下。
 
-但我用自己的方法去理解: DarwinCore terms是Buffet裡提供所有食材(詞彙標準)，想吃什麼就自己去拿裝滿一盤就是那次要發布的資料集。而領域資料標準是單點的串燒(交換規範)，用[台灣物種名錄 TaiCOL](https://taicol.tw)把所有資料串在一起，這個單點的串燒，有一些規定要遵守，例如︰一定會有青椒(必填欄位)，其他如果有串培根肉的話就一定要捲金針菇(條件必填)，可以選擇熟度(敏感資料層級)，也有一些食材沒提供但單點串燒才有的豬血糕(`selfProduced`, `{taxonRank}Chinese`)。我也不知道我在說什麼了，以下讓AI來說明...
+但我用自己的方法去理解: DarwinCore terms是Buffet裡提供所有食材(詞彙標準)，想吃什麼就自己去拿裝滿一盤就是那次要發布的資料集。而領域資料標準是單點的串燒(交換規範)，用[台灣物種名錄 TaiCOL](https://taicol.tw)把所有資料串在一起，這個單點的串燒，有一些規定要遵守，例如︰一定會有青椒(必填欄位)，其他如果有串培根肉的話就一定要捲金針菇(條件必填)，可以選擇熟度(敏感資料層級)，也有一些食材沒提供但單點串燒才有的豬血糕(`selfProduced`, `{taxonRank}Chinese`)，國內政府單位要點菜或出菜的話，不管是那一家餐廳，菜單都會有客製化串燒，不會有太多驚喜，但也不容易走味。
 
-`TBIA`代表領域資料標準，`DwC`代表TDWG的Darwin Core (我懶的修改，先直接丟上來，可能會有錯)。
+我也不知道我在說什麼了，以下讓AI來說明... `TBIA`代表領域資料標準，`DwC`代表TDWG的Darwin Core (我懶的修改，先直接丟上來，可能會有錯)。
 
 ```
 === 我是害羞的分隔線 (灬ºωº灬) : 以下是AI產生 =====
