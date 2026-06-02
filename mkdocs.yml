@@ -117,6 +117,8 @@ extra:
     property: G-T9S48WVHD5
   tags:
     museum: museum
+    tbia: tbia
+    data-standard: data-standard
     #extra_css:
 #  - stylesheets/extra.css
 
