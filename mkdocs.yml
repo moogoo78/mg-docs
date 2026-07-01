@@ -102,7 +102,7 @@ theme:
 plugins:
   - blog:
       post_dir: "{blog}/articles"
-      post_url_format: "{slug}"
+      post_url_format: "{file}"
       post_date_format: yyyy.MM.dd
       post_url_date_format: yyyy-MM-dd
       post_readtime: false
