@@ -9,11 +9,16 @@ tags:
 
 # 我的Debian GNU/Linux 桌面環境
 
-安裝Debian 12、Gnome Desktop，語系選繁體中文。
+2026 改用Debian 13 (2026.08.10 updated)
 
+
+Debian 12 (2025.04.16)
+
+```text
+安裝Debian 12、Gnome Desktop，語系選繁體中文。
 新的Gnome不習慣，login的畫面點齒輪改成Gnome Classic
 
-(2025.04.16)
+```
 
 ## 基本桌面設定
 
@@ -70,7 +75,39 @@ logout/login 後才有作用
 - fastfetch (好用好看的system info)
 - Alacritty (好用的 Terminal Emulator，標榜OpenGL、速度快)
 
-### Desktop
+### Desktop Tools
+
+**flameshot (snapshot)**
+
+```bash
+apt install flameshot
+```
+
+安裝完設定 Keyboard -> Custom Shortcuts
+
+command: `sh -c "XDG_CURRENT_DESKTOP=sway flameshot gui"`
+
+Debian 13如果只用 `flameshot gui` 會錯
+
+**Heptabase**
+
+```bash
+#!/usr/bin/env bash
+# Launch Heptabase.
+# --gtk-version=3: force GTK 3 (GTK 4 crashes on this setup)
+# (FUSE via libfuse2t64 handles AppImage mounting — no extract-and-run needed)
+appimage=$(ls ~/d/bin/Heptabase-*.AppImage 2>/dev/null | sort -V | tail -1)
+if [[ -z "$appimage" ]]; then
+    echo "No Heptabase AppImage found in ~/d/bin/" >&2
+    exit 1
+fi
+exec "$appimage" \
+    --no-sandbox \
+    --gtk-version=3 \
+    "$@"
+```
+
+### Browser
 
 **Floorp**
 

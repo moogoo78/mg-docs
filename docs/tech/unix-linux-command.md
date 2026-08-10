@@ -1,5 +1,10 @@
 # UNIX/Linux
 
+
+## Desktop
+
+[我的Debian GNU/Linux 桌面環境](../blog/250417tech__debian.md)
+
 ## Command lines
 
 - [Minimal safe Bash script template - Better Dev](https://betterdev.blog/minimal-safe-bash-script-template/)
