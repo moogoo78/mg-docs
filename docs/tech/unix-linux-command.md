@@ -3,7 +3,7 @@
 
 ## Desktop
 
-[我的Debian GNU/Linux 桌面環境](../blog/250417tech__debian.md)
+[我的Debian GNU/Linux 桌面環境](../blog/articles/2025/250417tech__debian.md)
 
 ## Command lines
 
