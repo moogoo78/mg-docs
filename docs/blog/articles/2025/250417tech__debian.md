@@ -53,7 +53,7 @@ sudo apt upgrade
 
 ```bash
 sudo apt install vim emacs git zsh tmux curl wget tig sqlite3
-sudo apt install build-essential libreadline-dev libsqlite3-dev zlib1g-dev libssl-dev liblzma-dev libbz2-dev tk-dev libffi-dev llvm libncurses5-dev libncursesw5-dev liblzma-dev
+sudo apt install build-essential libreadline-dev libsqlite3-dev zlib1g-dev libssl-dev liblzma-dev libbz2-dev tk-dev libffi-dev llvm libncurses5-dev libncursesw5-dev liblzma-dev net-tools
 ```
 
 Set default SHELL to zsh
