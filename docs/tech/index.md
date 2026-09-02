@@ -224,13 +224,10 @@ or
 
 ## Bookmarklet
 
-```javascript title="markdown link"
-javascript:(function()%7Bt='%5B'+decodeURIComponent(document.title)+'%5D('+decodeURIComponent(window.location.href)+')';win=window.open('','_new','location=no,links=no,scrollbars=no,toolbar=no,width=550,height=150');win.document.write('%3Cform%3E%3Ctextarea%20name=%22a%22%20rows=%225%22%20cols=%2250%22%20onClick=%22javascript:this.form.a.focus();this.form.a.select();%22%3E'+t+'%3C/textarea%3E%3C/form%3E');%7D)()
+```javascript title="copy markdown link"
+javascript:javascript:(function(){const e=new URL(window.location.href),t=["fbclid","gclid","msclkid","dclid","twclid","mc_eid","igshid","_ga","_gl"];Array.from(e.searchParams.keys()).forEach(o=>{ (t.includes(o.toLowerCase())||o.toLowerCase().startsWith("utm_"))&&e.searchParams.delete(o) });const o=e.toString(),n=document.title.replace(/[\[\]]/g,"\\$&"),r=`[${n}](${o})`;navigator.clipboard.writeText(r).then(()=>{const e=document.createElement("div");e.textContent="Copied clean Markdown link!",Object.assign(e.style,{position:"fixed",bottom:"20px",right:"20px",padding:"10px 16px",background:"#222",color:"#fff",fontSize:"14px",borderRadius:"6px",zIndex:"999999",boxShadow:"0 4px 6px rgba(0,0,0,0.2)"}),document.body.appendChild(e),setTimeout(()=>e.remove(),2000)}).catch(()=>{prompt("Copy Clean Markdown Link:",r)})})();
 ```
-
-```javascript title="markdown link (strip facebook ads)"
-javascript:(function()%7Bt='%5B'+decodeURIComponent(document.title)+'%5D('+decodeURIComponent(window.location.href.split('?fbclid=')[0])+')';win=window.open('','_new','location=no,links=no,scrollbars=no,toolbar=no,width=550,height=150');win.document.write('%3Cform%3E%3Ctextarea%20name=%22a%22%20rows=%225%22%20cols=%2250%22%20onClick=%22javascript:this.form.a.focus();this.form.a.select();%22%3E'+t+'%3C/textarea%3E%3C/form%3E');%7D)()
-```
+refined by gemini (strip tracking parameters (like fbclid, gclid, or utm_*))
 
 ```javascript title="open textarea"
 javascript:(function()%7Bwin=window.open('','_new','location=no,links=no,scrollbars=no,toolbar=no,width=800,height=600');win.document.write('%3Cform%3E%3Ctextarea%20rows=%2230%22%20cols=%2280%22%3E%3C/textarea%3E%3C/form%3E');%7D)()
