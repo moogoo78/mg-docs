@@ -10,6 +10,11 @@
 - [Minimal safe Bash script template - Better Dev](https://betterdev.blog/minimal-safe-bash-script-template/)
 - Mosky slide: [Get Power From Command Line - Speaker Deck](https://speakerdeck.com/mosky/get-power-from-command-line)
 
+support zh-tw
+```bash
+sudo apt install locales
+sudo dpkg-reconfigure locales
+```
 
 ### Shell
 
