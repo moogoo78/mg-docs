@@ -350,6 +350,14 @@ lscpu
 find *.wav -exec ffmpeg -i {} {}.mp3 \;
 ```
 
+#### ImageMagick
+
+check image file resolution, colorspace
+
+```bash 
+identify
+```
+
 ## Other examples
 
 
