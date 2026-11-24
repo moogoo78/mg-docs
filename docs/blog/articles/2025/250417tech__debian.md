@@ -49,6 +49,15 @@ sudo apt update
 sudo apt upgrade
 ```
 
+Update packages, different version like tixie 13.7 to 13.8
+
+```bash
+sudo apt update --allow-releaseinfo-change
+
+# check
+grep -r "13\.7" /etc/apt/sources.list /etc/apt/sources.list.d/
+```
+
 ## Development
 
 ```bash
